@@ -1,0 +1,120 @@
+
+
+.App {
+    text-align: center;
+    font-family: "D-DIN";
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .pac-target-input {
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  
+  
+  span.react-tagsinput-tag {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    color: #313131;
+  }
+  
+  input.react-tagsinput-input {
+    font-size: 17px;
+    color: #31333b!important;
+    opacity: 1;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .pac-target-input {
+      padding: 3px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 1px;
+    }
+    span.react-tagsinput-tag {
+      font-size: 13px;
+    }
+  }
+
+  body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'D-DIN';
+  color: #31333b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+//custom - scroll
+.custom_scroll {
+  scrollbar-width: none;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  // height: 100vh;
+
+}
+
+.custom_scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  width: 1px;
+}
+
+.custom_scroll::-webkit-scrollbar {
+  width: 1px;
+}
+
+.custom_scroll::-webkit-scrollbar-thumb {
+  // background: var(--theme-color);
+  border-radius: 12px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  width: 2px;
+}

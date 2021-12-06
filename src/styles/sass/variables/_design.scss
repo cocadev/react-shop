@@ -1,0 +1,203 @@
+//Font-weight
+$font-weight-light: 300 !default;
+$font-weight-default: 400 !default;
+$font-weight-bold: 500 !default;
+$font-weight-extra-bold: 700 !default;
+$font-weight-ultra-bold: 900 !default;
+
+//Border-radius
+$border-radius-base: 4px !default;
+$border-radius-small: 2px !default;
+$border-radius-normal: 6px !default;
+$border-radius-large: 8px !default;
+$border-radius-huge: 10px !default;
+$border-radius-label: 12px !default;
+$border-radius-extreme: 30px !default;
+
+//Paddings
+$padding-general-y: 0.625rem !default;
+$padding-general-x: 0.9375rem !default;
+$padding-card-body-y: 0.9375rem !default;
+$padding-card-body-x: 1.875rem !default;
+
+// Buttons:
+$mdb-btn-font-size-base: 12px !default;
+$mdb-btn-font-size-lg: 14px !default;
+$mdb-btn-font-size-sm: 11px !default;
+$mdb-btn-font-size-xs: 10px !default;
+
+$mdb-btn-fab-size: 41px !default;
+$mdb-btn-fab-size-lg: 56px !default;
+$mdb-btn-fab-size-mini: 29px !default;
+$mdb-btn-fab-font-size: 24px !default;
+$mdb-btn-just-icon-font-size: 20px !default;
+
+$mdb-btn-icon-size: 32px !default;
+$mdb-btn-icon-size-mini: 17px !default;
+
+$bmd-line-height: 1.42857143 !default;
+$btn-lg-line-height: 1.3333333 !default;
+
+//Popovers
+// $popover-color: $navbar-color !default;
+
+//Tooltips
+$tooltip-font-size: 0.75rem !default;
+
+
+// Dropdowns
+$dropdown-item-padding-y: 0.625rem;
+$dropdown-item-padding-x: 1.25rem;
+$dropdown-header-padding-y: 0.1875rem;
+$bmd-dropdown-margin-y: 0.3125rem !default;
+$bmd-dropdown-header-color: #777 !default;
+$bmd-dropdown-link-color: #333 !default;
+
+$text-disabled: #a8a8a8 !default;
+
+
+// inputs
+$mdb-input-placeholder-color: #aaaaaa !default;
+$mdb-input-underline-color: #d2d2d2 !default;
+
+
+
+
+.border-radius-large {
+    border-radius: $border-radius-large;
+}
+
+.border-radius-base {
+    border-radius: $border-radius-base;
+}
+.border-radius-25 {
+    border-radius: 25px!important
+}
+.border-radius-40 {
+    border-radius: 40px;
+}
+
+.min-width-130{
+    min-width: 130px;
+}
+.min-width-450 {
+    min-width: 450px;
+}
+.border-grey {
+    border: 1px solid #c5ccd3;
+}
+
+.circle32 {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.circle60 {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: $light-sky-color;
+}
+
+.circle50 {
+    width: 60px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: $light-sky-color;
+}
+
+.dialog {
+    height: calc(100% - 100px);
+    margin-top: 3%
+};
+
+.dialog-box {
+    padding: 16px 20px 16px 26px;
+    width: 524px;
+};
+
+.dialog-box-small {
+    padding: 16px 20px 16px 26px;
+    width: 420px;
+};
+
+.textarea {
+    background-color: $light-sky-color;
+    width: calc(100% - 60px);
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.border-bottom {
+    margin: 20px;
+    height: 1px;
+    background-color: #E2E4E8;
+}
+.divider {
+    height: 1px;
+    background-color: #E2E4E8;
+}
+
+.grey-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-sky-color;
+}
+
+.opacity5 {
+    opacity: 0.5;
+}
+
+.box-shadow {
+    // box-shadow: 0px 5px 9px -1px rgb(0 0 0 / 25%);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+}
+
+.respon-330 {
+    width: 330px;
+    @media (max-width: 450px) {
+        width: 230px;
+    }
+}
+
+@media (max-width: 830px) {
+    .dialog{
+        height: calc(100% - 80px);
+        margin-top: 7%;
+    }
+}
+@media (max-width: 640px) {
+    .dialog-box{
+        width: calc(100% - 34px);
+        padding: 16px;
+    }
+    .dialog-box-small{
+        width: calc(100% - 34px);
+        padding: 16px;
+    }
+    .min-width-450 {
+        min-width: 350px;
+    }
+}

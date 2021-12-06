@@ -1,0 +1,112 @@
+@import 'variables/_font.scss';
+@import 'variables/_color.scss';
+@import 'variables/design.scss';
+@import 'variables/margin.scss';
+@import 'variables/buttons.scss';
+@import 'variables/_text.scss';
+@import '_app.scss';
+
+@import 'pages/header.scss';
+@import 'pages/map.scss';
+@import 'pages/product.scss';
+@import 'pages/landing.scss';
+@import 'pages/auth.scss';
+@import 'pages/cart.scss';
+
+@import 'atoms/input.scss';
+@import 'atoms/store.scss';
+@import 'atoms/map.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'D-DIN';
+}
+
+.row {
+  display: flex;
+  flex-direction: row!important;
+}
+
+.mobileRow {
+  display: flex;
+  flex-direction: row!important;
+  @media (max-width: 960px) {
+    display: flex;
+    flex-direction: column!important;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.full {
+  width: 100%;
+}
+
+.overflowX {
+  overflow-x: auto;
+}
+.hidden {
+  overflow: hidden;
+}
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+.one-line {
+  white-space: nowrap
+}
+.left {
+  text-align: left;
+}

@@ -1,0 +1,121 @@
+
+///////////////////
+//  3 - header   //
+///////////////////
+.header-map-width {
+    width: calc(100% - 600px);
+    margin-right: 100px;
+    font-weight: 400;
+}
+
+.header-disable-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: $black-color;
+}
+
+.header-allow-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 40px;
+  background-color: $green-color;
+  color: $white-color;
+}
+
+.header-zip {
+  height: 26px;
+  width: 140px;
+  padding: 8px 22px;
+  padding-top: 14px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  background: #f7f8fc;
+}
+
+.header-logo {
+  width: 117px;
+}
+
+.header-hidden-1200 {
+  display: block;
+}
+.header-display-1200 {
+  display: none;
+}
+
+.header-hidden-850 {
+  display: block;
+}
+.header-display-850 {
+  display: none;
+}
+
+.header-input {
+  width: 100%;
+  padding: 8px 22px!important;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  background: #f7f8fc;
+  border-left: 2px solid #dedfe5!important;
+}
+
+.header-hidden-1650 {
+  display: block;
+}
+.header-display-1650 {
+  display: none;
+}
+  
+@media (max-width: 1650px) {
+  .header-map-width {
+    width: calc(100% - 300px);
+  }
+  .header-hidden-1650 {
+    display: none;
+  }
+  .header-display-1650 {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-map-width {
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  .header-hidden-1200 {
+    display: none;
+  }
+  .header-display-1200 {
+    display: block;
+  }
+  .header-input {
+    border-left: none!important;
+    border-radius: 22px;
+  }
+}
+
+@media (max-width: 850px) {
+  .header-map-width {
+    width: calc(100% - 100px);
+  }
+  .header-hidden-850 {
+    display: none!important;
+  }
+  .header-display-850 {
+    display: block;
+  }
+}
+
+@media (max-width: 630px) {
+  .header-input {
+    padding: 11px 22px,
+  }
+}

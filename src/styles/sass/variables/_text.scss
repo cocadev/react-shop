@@ -1,0 +1,126 @@
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text24 {
+    font-size: 24px;
+    font-weight: $font-weight-extra-bold;
+    margin-top: 15px;
+}
+.text15 {
+    font-size: 16px;
+}
+.text16 {
+    font-size: 16px;
+    font-weight: $font-weight-extra-bold;
+}
+.text17 {
+    font-size: 18px;
+}
+.text18 {
+    font-size: 18px;
+    font-weight: $font-weight-extra-bold;
+    line-height: 1.4;
+}
+.text16-gray {
+    font-size: 16px;
+    color: $grey-color;
+    margin-top: 8px;
+}
+.text12 {
+    font-size: 12px;
+}
+.text14 {
+    font-size: 14px;
+}
+.text20 {
+    font-size: 20px;
+    font-weight: $font-weight-extra-bold;
+}
+.text22 {
+    font-size: 22px;
+    font-weight: $font-weight-extra-bold;
+}
+.text24 {
+    font-size: 24px;
+    font-weight: $font-weight-extra-bold;
+}
+.text25 {
+    font-size: 25px;
+    font-weight: $font-weight-extra-bold;
+}
+.text27 {
+    font-size: 27px;
+}
+.text28 {
+    font-size: 28px;
+    font-weight: $font-weight-extra-bold;
+}
+.text30 {
+    font-size: 30px;
+}
+.text40 {
+    font-size: 40px;
+    font-weight: $font-weight-extra-bold;
+}
+.font-weight-normal { font-weight: $font-weight-default}
+.font-weight-bold { font-weight: $font-weight-extra-bold; }
+.font-weight-700 { font-weight: 700;}
+.font-weight-500 { font-weight: 500 }
+.font-weight-400 { font-weight: 400 }
+
+.text36 {
+    font-size: 36px;
+    font-weight: $font-weight-extra-bold;
+}
+
+.letter-Spacing-4 {
+    letter-spacing: 4px
+}
+
+.lineH14 {
+    line-height: 1.4
+}
+.lineH2 {
+    line-height: 2
+}
+//landing title
+.text70 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 0.0075em;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+
+.text64 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'D-DIN';
+    @media (max-width: 960px) {
+      font-size: 32px;
+    }
+    @media (max-width: 430px) {
+        font-size: 28px;
+    }
+}
+.opacity1 {
+    opacity: 1;
+}
+.opacity25 {
+    opacity: 0.25;
+}
+@media (max-width: 630px) {
+    .text70 {
+        font-size: 40px;
+    }
+    .text36 {
+        font-size: 20px;
+    }
+    .text22 {
+        font-size: 12px;
+    }
+  }

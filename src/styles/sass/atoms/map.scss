@@ -1,0 +1,43 @@
+.atom-map {
+    height: calc(100% - 100px);
+    position: fixed;
+    right: 0;
+    width: calc(100% - 530px);
+    margin-right: 12px;
+    @media (max-width: 1300px) {
+      width: calc(100% - 490px)
+    }
+    @media (max-width: 830px) {
+      height: 400px;
+      position: relative;
+      margin: 30px;
+      margin-right: 10px;
+      width: calc(100% - 55px);
+    }
+}
+.atom-map-title {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        @media (max-width: 450px) {
+            width: 30px;
+        }
+    }
+    span {
+        background-color: #fff;
+        padding: 2px 11px;
+        color: #313131;
+        font-weight: 600;
+        font-size: 14px;
+        box-shadow: 0px 5px 9px -1px rgb(0 0 0 / 25%);
+        border-radius: 12px;
+        white-space: nowrap;
+        display: none;
+        @media (max-width: 450px) {
+            display: block;
+        }
+    }
+}

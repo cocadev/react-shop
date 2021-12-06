@@ -1,0 +1,28 @@
+.map-img-width {
+    width: 210px;
+}
+
+.map-img-line {
+   font-size: 14px;
+}
+
+.map-text-input {
+    width: 364px;
+}
+
+@media (max-width: 1300px) {
+    .map-img-width {
+        width: 200px;
+    }  
+}
+@media (max-width: 430px) {
+    .map-img-width {
+        width: 260px;
+        height: 130px;
+    }  
+}
+@media (max-width: 650px) {
+    .map-text-input {
+        width: calc(100% - 140px);
+    } 
+}

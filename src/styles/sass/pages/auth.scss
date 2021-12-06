@@ -1,0 +1,171 @@
+.auth {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 12px;
+    }
+    .label {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        text-align: left;
+        color: #31333B;
+      }
+      .box {
+        background: #F7F8FC;
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        margin-right: 24px;
+      }
+      .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .accountTitle {
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 30px;
+        span {
+            text-decoration: underline;
+            color: #11C856;
+            cursor: pointer;
+          }
+          @media (max-width: 600px) {
+            font-size: 12px;
+          }
+      }
+      .forgetTitle {
+        opacity: 0.5;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 30px;
+        cursor: pointer;
+        color: #31333b;
+        text-decoration: none;
+        @media (max-width: 600px) {
+          font-size: 12px;
+        }
+      }
+      .signUpTitle {
+        color: #11C856;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 14px;
+        margin-top: -10px;
+        cursor: pointer;
+        @media (max-width: 600px) {
+          font-size: 12px;
+        }
+      }
+      .LoginButton {
+        background: #11C856;
+        border-radius: 28px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        cursor: pointer;
+        width: 470px;
+        padding: 16px;
+        margin-top: 1px;
+        @media (max-width: 600px) {
+          width: 370px;
+          padding: 12px;
+        }
+        @media (max-width: 400px) {
+          width: 260px;
+        }
+      }
+      .input {
+        color: #212D40;
+        font-size: 18px;
+        width: 412px;
+        padding-bottom: 10px;
+        @media (max-width: 600px) {
+          width: 300px;
+        }
+        @media (max-width: 400px) {
+          width: 200px;
+        }
+      }
+      .eyeIcon {
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+        color: #777;
+      }
+      .halfInput {
+        width: 195px;
+        @media (max-width: 600px) {
+          width: 140px;
+        }
+        @media (max-width: 400px) {
+          width: 93px;
+        }
+      }
+      .flagInput {
+        position: relative;
+        border-bottom: 1px solid #949494;
+        width: 60px;
+        margin-left: -42px;
+        padding-bottom: 8px;
+        display: inline-block;
+        cursor: pointer;
+        img {
+          margin-left: -30px;
+        }
+      }
+      .flagTextField {
+        margin-top: 42px;
+        width: 332px;
+        margin-left: -20px;
+        @media (max-width: 600px) {
+          margin-top: 41px;
+          width: 224px;
+        }
+        @media (max-width: 400px) {
+          width: 124px;
+        }
+      }
+      .downIcon {
+        color: #31333B;
+        margin-top: 4px;
+        position: absolute;
+        right: -10px;
+      }
+      .subTitle {
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 110px;
+        color: #31333b;
+      }
+      .policyTitle {
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: -12px;
+        color: #31333b;
+        span {
+          text-decoration: underline;
+          color: #11C856;
+          cursor: pointer;
+        }
+        @media (max-width: 600px) {
+          font-size: 12px;
+        }
+      }
+}

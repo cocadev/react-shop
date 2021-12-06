@@ -1,0 +1,22 @@
+.tags-input {
+    height: 50px;
+    width: calc(100% - 70px);
+    border: none!important;
+    padding: 1px 22px;
+    background: #fff;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 8%), 0px 8px 16px rgb(0 0 0 / 4%);
+    border-radius: 22px;
+    @media (max-width: 630px) {
+      padding: 11px 22px
+    }
+}
+
+.grey-input {
+  padding: 12px 20px;
+  background-color: #f7f8fc;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin-top: 10px;
+  width: calc(100% - 45px);
+}

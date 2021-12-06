@@ -1,0 +1,66 @@
+.btn-border-normal {
+    border: 1px solid #C5CCD3;
+    border-radius: $border-radius-large;
+    padding: 12px 36px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-green-normal {
+    background-color: $green-color;
+    border-radius: 48px;
+    padding: 16px 36px;
+    font-size: 16px;
+    color: $white-color;
+    cursor: pointer;
+    @media (max-width: 450px) {
+        padding: 8px 36px;
+    }
+}
+.btn-green-normal2 {
+    background-color: $green-color;
+    border-radius: 48px;
+    padding: 14px 28px;
+    font-size: 14px;
+    color: $white-color;
+    cursor: pointer;
+    @media (max-width: 450px) {
+        padding: 8px 16px;
+    }
+}
+.btn-green-big {
+    background-color: $green-color;
+    padding: 16px 0;
+    font-size: 15px;
+    color: $white-color;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 3px;
+    font-weight: 500;
+    @media (max-width: 450px) {
+        padding: 8px 36px;
+    }
+}
+.btn-delivery {
+    border: 1px solid #11c856;
+    font-size: 18px;
+    padding: 12px 18px;
+    font-weight: 600;
+    color: #11c856;
+}
+
+.btn-pickup {
+    border: 1px solid #eaeff5;
+    font-size: 18px;
+    padding: 12px 18px;
+    font-weight: 600;
+    color: #31333b;
+}
+
+.btn-calc {
+    border: 1px solid #eaeff5;
+    padding: 3px 12px;
+    margin: 0 16px;
+    cursor: pointer;
+}
